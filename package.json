@@ -22,6 +22,7 @@
     "@mastra/core": "latest",
     "@mastra/fastembed": "latest",
     "@mastra/libsql": "latest",
+    "@mastra/sqlite": "latest",
     "@mastra/loggers": "latest",
     "@mastra/mcp": "latest",
     "@mastra/memory": "latest",
