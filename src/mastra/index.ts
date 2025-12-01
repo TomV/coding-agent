@@ -1,5 +1,5 @@
 import { Mastra } from '@mastra/core/mastra';
-import { LibSQLStore } from '@mastra/libsql';
+//import { LibSQLStore } from '@mastra/libsql';
 import { PinoLogger } from '@mastra/loggers';
 import { codingAgent } from './agents/coding-agent';
 //## quick test: disable persistance:
