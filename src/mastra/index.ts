@@ -1,12 +1,12 @@
 import { Mastra } from '@mastra/core/mastra';
-import { SqliteSyncStore } from '@mastra/sqlite';
+import { LibSQLStore } from '@mastra/libsql';
 import { PinoLogger } from '@mastra/loggers';
 import { codingAgent } from './agents/coding-agent';
 
 export const mastra = new Mastra({
   agents: { codingAgent },
-  storage: new SqliteSyncStore({
-    dbPath: '.mastra/db.sqlite',
+  storage: new LibSQLStore({ 
+    url: 'file:./.mastra/mastra.db'  // Fixed path - removed ../../
   }),
   logger: new PinoLogger({
     name: 'Mastra',
