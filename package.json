@@ -17,6 +17,7 @@
     "node": ">=22.13.0"
   },
   "dependencies": {
+    "ai": "^5.0.105",
     "@e2b/code-interpreter": "^1.5.1",
     "@mastra/core": "latest",
     "@mastra/fastembed": "latest",
